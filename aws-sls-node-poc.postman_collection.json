@@ -1,0 +1,153 @@
+{
+	"id": "59e98459-796a-6f31-6afb-688ac70d7af7",
+	"name": "aws-sls-node-poc",
+	"description": "",
+	"order": [
+		"f824aec2-3d29-c943-2919-ec24ccaeba2c",
+		"b774bdc2-c807-de64-7248-d8b2a215e701",
+		"3ab9d748-2bca-bdb9-2683-a69e3924055f",
+		"ac9fe6e0-4c72-fa93-26fe-53e98d6eb4b2",
+		"5c648179-4e57-039c-56ad-c0bee05e54d7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1691495045315,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3ab9d748-2bca-bdb9-2683-a69e3924055f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{DEV_HOST}}/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "59e98459-796a-6f31-6afb-688ac70d7af7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1691580565709,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"bhuvanesh\",\n\t\"lastName\": \"bhuvanesh\",\n\t\"email\": \"bhuvanesh@yopmail.com\",\n\t\"phone\": \"+918610524003\"\n}"
+		},
+		{
+			"id": "5c648179-4e57-039c-56ad-c0bee05e54d7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{DEV_HOST}}/delete/7de7af6c-10ce-4abb-8eb0-f46cb3fcd03e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1691584780279,
+			"name": "delete",
+			"description": "",
+			"collectionId": "59e98459-796a-6f31-6afb-688ac70d7af7",
+			"responses": []
+		},
+		{
+			"id": "ac9fe6e0-4c72-fa93-26fe-53e98d6eb4b2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{DEV_HOST}}/update/7de7af6c-10ce-4abb-8eb0-f46cb3fcd03e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1691584773655,
+			"name": "update",
+			"description": "",
+			"collectionId": "59e98459-796a-6f31-6afb-688ac70d7af7",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\": \"raj\",\n\t\"lastName\": \"jay\"\n}"
+		},
+		{
+			"id": "b774bdc2-c807-de64-7248-d8b2a215e701",
+			"headers": "",
+			"headerData": [],
+			"url": "{{DEV_HOST}}/users/7de7af6c-10ce-4abb-8eb0-f46cb3fcd03e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1691584765233,
+			"name": "userById",
+			"description": "Register api",
+			"collectionId": "59e98459-796a-6f31-6afb-688ac70d7af7",
+			"responses": []
+		},
+		{
+			"id": "f824aec2-3d29-c943-2919-ec24ccaeba2c",
+			"headers": "",
+			"headerData": [],
+			"url": "{{DEV_HOST}}/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1691580880254,
+			"name": "users",
+			"description": "Register api",
+			"collectionId": "59e98459-796a-6f31-6afb-688ac70d7af7",
+			"responses": []
+		}
+	]
+}
